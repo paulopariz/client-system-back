@@ -1,0 +1,21 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx --no-watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.5.0",
+    "@types/node": "^20.10.6",
+    "fastify": "^4.25.2",
+    "tsx": "^4.7.0"
+  }
+}
