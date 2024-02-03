@@ -1,4 +1,3 @@
-// UpdateCustomerController.ts
 import { FastifyRequest, FastifyReply } from "fastify";
 import { UpdateCustomerService } from "../services/UpdateCustomerService";
 

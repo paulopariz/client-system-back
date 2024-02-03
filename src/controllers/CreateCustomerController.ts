@@ -12,7 +12,7 @@ class CreateCustomerController {
     const customerService = new CreateCustomerService();
     const customer = await customerService.execute({ name, email, status });
 
-    reply.send(customer);
+    reply.status(201).send(customer);
   }
 }
 

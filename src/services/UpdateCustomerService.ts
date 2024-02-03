@@ -1,4 +1,3 @@
-// UpdateCustomerService.ts
 import prismaClient from "../prisma";
 
 interface UpdateCustomerProps {
